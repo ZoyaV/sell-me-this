@@ -1,0 +1,21 @@
+name: sell-me-this
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - statsmodels
+  - jupyter
+  - notebook
+  - ipykernel
+  - nbconvert
+  - imbalanced-learn
+  - optuna
+  - shap
+  - xgboost
+  - great_tables
+  - pip

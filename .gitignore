@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Generated dataset pieces — keep only dataset/bycicles.csv
+dataset/binary_encoding.csv
+dataset/label_ecoded_1000.csv
+dataset/encoding_dict.pkl
+dataset/left.csv
+dataset/right.csv
+dataset/*.pkl

@@ -1,8 +1,45 @@
-# Ключевые показатели эффективности рекламных кампаний
+# Sell me this
+
+Семинары и туториалы по метрикам рекламы и моделям на выгрузках Директа.
+Данные лежат в `dataset/`. Первый семинар читает `dataset/bycicles.csv`.
+
+## Окружение
+
+Нужны [Miniconda](https://docs.conda.io/en/latest/miniconda.html) или Anaconda.
+
+Из корня репозитория:
+
+```bash
+conda env create -f environment.yml
+conda activate sell-me-this
+```
+
+Если среда уже была и `environment.yml` обновился:
+
+```bash
+conda env update -f environment.yml --prune
+conda activate sell-me-this
+```
+
+Проверка и ядро для Jupyter:
+
+```bash
+python -c "import pandas, seaborn, sklearn, statsmodels, great_tables; print('ok')"
+python -m ipykernel install --user --name sell-me-this --display-name "Python (sell-me-this)"
+```
+
+Дальше в Cursor / VS Code выберите ядро `Python (sell-me-this)` и откройте `seminars/look_at_data_processing.ipynb`.
+В `seminars/look_at_data_eda.ipynb` таблицы рисует Great Tables: у каждой есть заголовок, вызов — `show_table(df, "название")`.
+Бейзлайн CTR группы за день на if'ах: `seminars/look_at_data_task.ipynb`, ответы — `look_at_data_solution.ipynb`.
+
+Туториал `tutorials/shap.ipynb` ещё тянет `torch`, `torchvision` и `transformers`. В эту среду они не входят — ставьте отдельно, если будете его гонять.
+
+Старая выгрузка (два файла `left.csv` / `right.csv`) лежит на Google Drive:
+https://drive.google.com/drive/folders/1atMrzGzv4Swob8kS_bYVz8isOI-hGxqT?usp=sharing
+
+## Ключевые показатели эффективности рекламных кампаний
 
 В этом разделе описаны основные ключевые показатели (KPI), используемые для оценки эффективности рекламных кампаний и их влияния на продажи и прибыль компании.
-Ссылка на данные:
-https://drive.google.com/drive/folders/1atMrzGzv4Swob8kS_bYVz8isOI-hGxqT?usp=sharing
 
 ## Взвешенные показы
 
