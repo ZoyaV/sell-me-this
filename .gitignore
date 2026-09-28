@@ -8,6 +8,9 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
+# Private instructor solutions (keep locally)
+/seminars_theory/2. Classification, Logistic Regression, Validation — solutions.ipynb
+
 # macOS
 .DS_Store
 
