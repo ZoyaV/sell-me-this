@@ -9,6 +9,7 @@ venv/
 .ipynb_checkpoints/
 
 # Private instructor solutions (keep locally)
+/seminars_theory/3. Entropy, Decision Trees — solutions.ipynb
 /seminars_theory/2. Classification, Logistic Regression, Validation — solutions.ipynb
 
 # macOS
@@ -21,3 +22,6 @@ dataset/encoding_dict.pkl
 dataset/left.csv
 dataset/right.csv
 dataset/*.pkl
+
+# Private instructor theory
+/seminars_theory/3. Entropy, Decision Trees — theory.ipynb
