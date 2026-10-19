@@ -21,3 +21,7 @@ dataset/encoding_dict.pkl
 dataset/left.csv
 dataset/right.csv
 dataset/*.pkl
+dataset/test.csv
+dataset/test_answers.csv
+dataset/split.json
+/kaggle/
