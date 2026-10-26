@@ -22,6 +22,10 @@ dataset/encoding_dict.pkl
 dataset/left.csv
 dataset/right.csv
 dataset/*.pkl
+dataset/test.csv
+dataset/test_answers.csv
+dataset/split.json
+/kaggle/
 
 # Private instructor theory
 /seminars_theory/3. Entropy, Decision Trees — theory.ipynb
