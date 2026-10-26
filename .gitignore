@@ -25,3 +25,7 @@ dataset/*.pkl
 
 # Private instructor theory
 /seminars_theory/3. Entropy, Decision Trees — theory.ipynb
+
+/seminars_theory/4. Random Forest — solutions.ipynb
+
+/seminars_theory/4. Random Forest — theory.ipynb
