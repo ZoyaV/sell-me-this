@@ -1,0 +1,23 @@
+Место,Метод,Среднее метрик,Test ROC AUC,Test BalancedAccuracy,Лучшие параметры
+1,Bagging all features (control),0.6317263476873268,0.6541962462092515,0.6092564491654021,estimator__max_depth=10; estimator__min_samples_leaf=20; n_estimators=200
+2,RF + cyclic calendar,0.6305070910309224,0.6464466555064579,0.6145675265553869,max_depth=10; max_features=0.7; min_samples_leaf=20; n_estimators=100
+3,Random Patches 75%,0.6303056085806195,0.657424570727248,0.6031866464339909,estimator__max_depth=10; estimator__min_samples_leaf=20; n_estimators=200
+4,Random Patches 50%,0.6282833004437219,0.6511037784291738,0.6054628224582701,estimator__max_depth=6; estimator__min_samples_leaf=20; n_estimators=200
+5,Random Subspace 50%,0.6277790186538209,0.6500952148493717,0.6054628224582701,estimator__max_depth=10; estimator__min_samples_leaf=20; n_estimators=200
+6,ExtraTrees,0.6269552432641539,0.6461714880457584,0.6077389984825494,max_depth=10; max_features=sqrt; min_samples_leaf=5; n_estimators=200
+7,RandomForest + subsample,0.6263617335319758,0.6502955459713872,0.6024279210925645,max_depth=10; max_features=0.7; min_samples_leaf=20; n_estimators=200
+8,RandomForest + both,0.6253007845150951,0.6443800212304936,0.6062215477996965,max_depth=6; max_features=0.7; min_samples_leaf=20; n_estimators=100
+9,Random Subspace 75%,0.6249392674328373,0.6428982617245517,0.6069802731411229,estimator__max_depth=10; estimator__min_samples_leaf=20; n_estimators=100
+10,RandomForest,0.6239589113960777,0.6432137256753117,0.6047040971168437,max_depth=10; max_features=0.7; min_samples_leaf=20; n_estimators=100
+11,RF retuned control,0.6239589113960777,0.6432137256753117,0.6047040971168437,max_depth=10; max_features=0.7; min_samples_leaf=20; n_estimators=100
+12,RF + ExtraTrees blend,0.6234448433157334,0.6437030401974758,0.6031866464339909,extra__max_depth=10; extra__max_features=0.7; extra__min_samples_leaf=20; extra__n_estimators=100; rf__max_depth=10; rf__max_features=0.7; rf__min_samples_leaf=20; rf__n_estimators=100
+13,RF + calendar bins,0.6209763954674508,0.6387661445009107,0.6031866464339909,max_depth=10; max_features=0.7; min_samples_leaf=20; n_estimators=100
+14,RF + frequency,0.6202493316539291,0.6380707422152938,0.6024279210925645,max_depth=10; max_features=0.7; min_samples_leaf=20; n_estimators=100
+15,RF + group statistics,0.6187082787411837,0.642575889804067,0.5948406676783005,max_depth=10; max_features=sqrt; min_samples_leaf=20; n_estimators=200
+16,RF + pair frequencies,0.6168673048095588,0.6411701179650964,0.5925644916540213,max_depth=10; max_features=sqrt; min_samples_leaf=5; n_estimators=100
+17,RF + target encoding,0.6166859706042862,0.6377725481888454,0.5955993930197269,max_depth=10; max_features=sqrt; min_samples_leaf=20; n_estimators=100
+18,RandomForest + text/interactions,0.6161793861578102,0.6367593792958937,0.5955993930197269,max_depth=6; max_features=0.7; min_samples_leaf=20; n_estimators=200
+19,RF + pair target encoding,0.6127138880126002,0.6358981857368847,0.5895295902883156,max_depth=6; max_features=sqrt; min_samples_leaf=20; n_estimators=100
+20,RandomForest + permutation,0.6023565387387428,0.616700937872023,0.5880121396054628,max_depth=10; max_features=sqrt; min_samples_leaf=20; n_estimators=200
+21,DecisionTree,0.5993245156937559,0.6113956171234752,0.5872534142640364,max_depth=10; min_samples_leaf=20
+22,DecisionTree + permutation,0.578075025156523,0.5840711428775376,0.5720789074355084,max_depth=10; min_samples_leaf=50

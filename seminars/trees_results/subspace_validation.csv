@@ -1,0 +1,6 @@
+Model,bootstrap_rows,feature_fraction,encoded_features_per_tree,Val ROC AUC,Val BalancedAccuracy
+Random Subspace 50%,False,0.5,121,0.6731887789156512,0.6540825180693022
+Random Subspace 75%,False,0.75,182,0.6604472986631577,0.6355173827640788
+Random Patches 50%,True,0.5,121,0.6773318458340485,0.6524734443236646
+Random Patches 75%,True,0.75,182,0.6796060033945496,0.6463518126513721
+Bagging all features (control),True,1.0,243,0.6791387760550756,0.6473196407117112
