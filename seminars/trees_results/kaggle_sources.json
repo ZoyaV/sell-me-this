@@ -1,0 +1,27 @@
+[
+  {
+    "model": "RF + frequency",
+    "url": "https://www.kaggle.com/competitions/playground-series-s6e2/writeups/1st-place-solution-diversity-selection-and-t",
+    "year": 2026
+  },
+  {
+    "model": "RF + target encoding",
+    "url": "https://www.kaggle.com/competitions/playground-series-s5e4/writeups/johannes-heller-3rd-place-target-encoding-and-3-le",
+    "year": 2025
+  },
+  {
+    "model": "RF + pair target encoding",
+    "url": "https://www.kaggle.com/competitions/playground-series-s5e6/writeups/chris-deotte-1st-place-fast-gpu-experimentation-wi",
+    "year": 2025
+  },
+  {
+    "model": "ExtraTrees",
+    "url": "https://www.kaggle.com/competitions/playground-series-s6e3/writeups/18th-place-many-oofs-neural-networks-over-gbdts",
+    "year": 2026
+  },
+  {
+    "model": "RF + ExtraTrees blend",
+    "url": "https://www.kaggle.com/competitions/playground-series-s5e10/writeups/s5e10-14th-place-solution",
+    "year": 2025
+  }
+]

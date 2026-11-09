@@ -1,0 +1,92 @@
+{
+  "selected_on": "validation mean(ROC AUC, BalancedAccuracy)",
+  "selected_model": "Random Patches 50%",
+  "exploratory_after_previous_test": true,
+  "official_ids_sha256": "157b4413fd409ba6de880d8e383037813b5c52bb11cb76b150e0872ba512648e",
+  "encoded_features": 243,
+  "tree_parameters": {
+    "ccp_alpha": 0.0,
+    "class_weight": "balanced",
+    "criterion": "gini",
+    "max_depth": 10,
+    "max_features": null,
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 20,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "random_state": 42,
+    "splitter": "best"
+  },
+  "best_parameters": {
+    "Random Subspace 50%": {
+      "estimator__max_depth": 10.0,
+      "estimator__min_samples_leaf": 20.0,
+      "n_estimators": 200.0,
+      "validation_score": 0.6636356484924767,
+      "validation_auc": 0.6731887789156512,
+      "validation_BalancedAccuracy": 0.6540825180693022
+    },
+    "Random Subspace 75%": {
+      "estimator__max_depth": 10.0,
+      "estimator__min_samples_leaf": 20.0,
+      "n_estimators": 100.0,
+      "validation_score": 0.6479823407136183,
+      "validation_auc": 0.6604472986631577,
+      "validation_BalancedAccuracy": 0.6355173827640788
+    },
+    "Random Patches 50%": {
+      "estimator__max_depth": 6.0,
+      "estimator__min_samples_leaf": 20.0,
+      "n_estimators": 200.0,
+      "validation_score": 0.6649026450788565,
+      "validation_auc": 0.6773318458340485,
+      "validation_BalancedAccuracy": 0.6524734443236646
+    },
+    "Random Patches 75%": {
+      "estimator__max_depth": 10.0,
+      "estimator__min_samples_leaf": 20.0,
+      "n_estimators": 200.0,
+      "validation_score": 0.6629789080229609,
+      "validation_auc": 0.6796060033945496,
+      "validation_BalancedAccuracy": 0.6463518126513721
+    },
+    "Bagging all features (control)": {
+      "estimator__max_depth": 10.0,
+      "estimator__min_samples_leaf": 20.0,
+      "n_estimators": 200.0,
+      "validation_score": 0.6632292083833934,
+      "validation_auc": 0.6791387760550756,
+      "validation_BalancedAccuracy": 0.6473196407117112
+    }
+  },
+  "settings": [
+    [
+      "Random Subspace 50%",
+      false,
+      0.5
+    ],
+    [
+      "Random Subspace 75%",
+      false,
+      0.75
+    ],
+    [
+      "Random Patches 50%",
+      true,
+      0.5
+    ],
+    [
+      "Random Patches 75%",
+      true,
+      0.75
+    ],
+    [
+      "Bagging all features (control)",
+      true,
+      1.0
+    ]
+  ],
+  "seed": 42
+}

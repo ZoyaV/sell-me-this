@@ -36,7 +36,7 @@ conda activate sell-me-this
 | папка | что внутри |
 |---|---|
 | `dataset/` | основная выгрузка `bycicles.csv`. Сгенерированные кодировки в git не кладём |
-| `seminars/` | актуальные тетради первого семинара |
+| `seminars/` | актуальные тетради по данным, моделям и деревьям |
 | `seminars_2025/` | программа курса: данные, линейные модели, классификация, деревья |
 | `tutorials/` | короткие разборы моделей вне датасета курса |
 
@@ -47,7 +47,7 @@ conda activate sell-me-this
 1. **Смотрим на данные** — чистка, корреляции, кодировки, зерно таблицы, бейзлайн на `if`. Актуальные тетради: `seminars/look_at_data_processing.ipynb`, `look_at_data_eda.ipynb`, `look_at_data_task.ipynb` / `look_at_data_solution.ipynb`. Старый конспект: `seminars_2025/look_at_data.ipynb`.
 2. **Линейные модели** — регрессия на расходах и показах: `seminars_2025/linear_models_task.ipynb`, `linear_models_solution.ipynb`.
 3. **Классификация** — будет расход / не будет: `seminars_2025/classification_task.ipynb`.
-4. **Деревья решений** — та же классификация деревьями и подбор гиперпараметров: `seminars_2025/dtree_classification_task.ipynb`, `dtree_classification_solution.ipynb`.
+4. **Деревья и случайный лес** — прогноз наличия клика на bicycles, официальные train/test и validation внутри train, подбор параметров с весами классов, permutation importance, пять приёмов из решений Kaggle 2025–2026 годов, дополнительный поиск календарных и групповых признаков, подбор порога и заключительный SHAP лидера тестового рейтинга. Перебор параметров выполнен для каждого варианта. Сравнение по ROC AUC и BalancedAccuracy. Задания: [`seminars/dtree_classification_task.ipynb`](seminars/dtree_classification_task.ipynb); исполненные решения: [`seminars/dtree_classification_solution.ipynb`](seminars/dtree_classification_solution.ipynb). Итоговые таблицы и графики: `seminars/trees_results/`. Версия на старых данных сохранена в `seminars_2025/`.
 
 ## Описание метрик
 
